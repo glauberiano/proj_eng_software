@@ -114,7 +114,3 @@ __Pergunta: vocês tem alguma lista inicial de quais dados sensíveis devemos no
 
 - Nome completo
 - CPF, RG, CNPJ
-
- ## 2. Cenários
-
- Nesta seção estão descrito os principais cenários imaginados pelos stakeholders.
