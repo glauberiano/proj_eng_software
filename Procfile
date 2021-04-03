@@ -1,2 +1,2 @@
 release python email_marketing/manage.py migrate
-web: gunicorn email_marketing.email_marketing.wsgi 
+cd email_marketing && web: gunicorn email_marketing.wsgi 
