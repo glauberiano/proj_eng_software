@@ -1,2 +1,2 @@
 release python email_marketing/manage.py migrate
-web: python manage.py runserver
+web: python email_marketing/manage.py runserver
