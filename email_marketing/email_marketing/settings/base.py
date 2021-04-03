@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'email_marketing.urls'
+ROOT_URLCONF = 'email_marketing.email_marketing.urls'
 
 TEMPLATES = [
     {
