@@ -1,9 +1,8 @@
 from rest_framework import serializers
-from content import models
-from datetime import datetime
+from campaigns import models
 
 
-class ContentSerializer(serializers.ModelSerializer):
+class CampaignSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Campaign
         fields = "__all__"
