@@ -27,6 +27,7 @@ git clone https://github.com/glauberiano/proj_eng_software
 Para iniciar o servidor, vá para o terminal e digite:
 
 ```
+python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
