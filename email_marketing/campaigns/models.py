@@ -1,5 +1,7 @@
 from django.db import models
 import datetime
+from .send import send_email
+
 
 
 class Campaign(models.Model):
@@ -21,5 +23,8 @@ class Campaign(models.Model):
     list = models.CharField(max_length=12, choices=contacts_choice, default='List A')
     email_body = models.TextField(help_text='Write your email here', default='Ola')
 
+    def save(self, *args, **kwargs):
+        send_email(self.subject ,self.email_body)
+        super(Campaign, self).save(*args, **kwargs)
 
 
