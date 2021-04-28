@@ -1,6 +1,6 @@
 import environ
 
-from .base import *
+from emailmarketing.settings.base import *
 
 env = environ.Env()
 
