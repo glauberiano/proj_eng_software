@@ -1,0 +1,100 @@
+[
+    {
+        "model": "ferramentas.contact",
+        "pk": 1,
+        "fields": {
+            "email": "carolinedantas11@gmail.com"
+        }
+    },
+    {
+        "model": "ferramentas.contact",
+        "pk": 2,
+        "fields": {
+          "email": "leonardolcruz08@gmail.com"
+        }
+    },
+        {
+        "model": "ferramentas.contact",
+        "pk": 3,
+        "fields": {
+            "email": "fabianaiegawa@gmail.com"
+        }
+    },
+        {
+        "model": "ferramentas.contact",
+        "pk": 4,
+        "fields": {
+            "email": "lucas.mazim9@gmail.com"
+        }
+    },
+    {
+        "model": "ferramentas.clients",
+        "pk": 1,
+        "fields": {
+            "nome": "Lucas Mazim de Sousa",
+            "data_nascimento": "1994-07-09",
+            "email": "lucas.mazim9@gmail.com",
+            "cargo": "Estudante",
+            "sexo": "M",
+            "CEP": "09210635",
+            "numero": "96",
+            "complemento": ""
+
+        }
+
+    },
+    {
+        "model": "ferramentas.groupcontacts",
+        "pk": 1,
+        "fields": {
+            "nome":"devteam"
+        }
+
+    },
+    {
+        "model": "ferramentas.groupcontacts_emails",
+        "pk": 1,
+        "fields": {
+            "groupcontacts_id": 1,
+            "contact_id" : 1
+        }
+    },
+    {
+        "model": "ferramentas.groupcontacts_emails",
+        "pk": 2,
+        "fields": {
+            "groupcontacts_id": 1,
+            "contact_id" : 2
+        }
+    },
+    {
+        "model": "ferramentas.groupcontacts_emails",
+        "pk": 3,
+        "fields": {
+            "groupcontacts_id": 1,
+            "contact_id" : 3
+        }
+    },
+    {
+        "model": "ferramentas.groupcontacts_emails",
+        "pk": 4,
+        "fields": {
+            "groupcontacts_id": 1,
+            "contact_id" : 4
+        }
+    },
+    {
+        "model": "ferramentas.emailcontent",
+        "pk": 1,
+        "fields": {
+            "nome": "Conteúdo de teste",
+            "created_at": "2021-04-28",
+            "script": "ferramentas/contents/model_0002.py",
+            "htmlpath": "ferramentas/contents/content_0002.html"
+        }
+    }
+]
+
+  
+
+
