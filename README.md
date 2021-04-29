@@ -83,6 +83,46 @@ Superuser created successfully.
 ### Acessando a aplicação
 Acesse http://localhost:8080/admin e insira as credenciais de acesso que você acabou de criar. 
 
+Na página inicial, é possível visualizar todas as opções de gerenciamento de usuários e de ferramentas do sistema.
+<p align="center">
+  <img alt="PaginaInicial" title="#PaginaInicial" src="./assets/menu.png" width="700px">
+</p>
+
+Para criar um novo usuário do sistema, clique em Users e insira as informações necessárias:
+<p align="center">
+  <img alt="AddUser" title="#AddUser" src="./assets/add_user.png" width="700px">
+</p>
+
+Na aba Ferramentas, a opção Campanhas permite configurar a criação de novas campanhas, adicionando status, datas de início e término, assuntos, conteúdo de email e listas de emails:
+<p align="center">
+  <img alt="Campaigns" title="#Campaigns" src="./assets/create_campaigns.png" width="700px">
+</p>
+
+A opção Clients permite visualizar e criar novos clientes na plataforma:
+<p align="center">
+  <img alt="AddClients" title="#AddClients" src="./assets/add_clients.png" width="700px">
+</p>
+
+De volta ao menu principal, abaixo está a opção Contacts que permite adicionar novos endereços de email:
+<p align="center">
+  <img alt="AddContacts" title="#AddContacts" src="./assets/add_contact.png" width="700px">
+</p>
+
+Em Email Contents, é possível criar o corpo do email marketing que será disparado nas campanhas.
+<p align="center">
+  <img alt="CreateContent" title="#CreateContent" src="./assets/create_content.png" width="700px">
+</p>
+
+Para criar um novo usuário do sistema, clique em Users e insira as informações necessárias:
+<p align="center">
+  <img alt="AddUser" title="#AddUser" src="./assets/add_user.png" width="700px">
+</p>
+
+Para facilitar, é possível criar listas de endereços de emails na aba Group Contacts:
+<p align="center">
+  <img alt="ContactList" title="#ContactList" src="./assets/contact_list.png" width="700px">
+</p>
+
 ---
 ## Testes
 
