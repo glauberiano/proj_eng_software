@@ -37,6 +37,7 @@ A aplicação consiste no desenvolvimento de um sistema de gerenciamento de emai
 ## Como usar
 O sistema de email marketing encontra-se na fase de desenvolvimento do backend, porém você pode rodar localmente ou acessar o deploy realizado na plataforma Heroku através deste [link](https://warm-cove-78160.herokuapp.com/admin/login/?next=/admin/). Neste caso, utilize as credenciais de acesso:
 > login: admin
+
 > password: grupo2
 
 ### Pré-requisitos
@@ -129,7 +130,7 @@ Para facilitar, é possível criar listas de endereços de emails na aba Group C
 🚧 To do 🚧
 
 ---
-Tecnologias
+## Tecnologias
 O desenvolvimento deste projeto utiliza as seguintes ferramentas:
  * Python 3.8
  * Django
@@ -139,7 +140,7 @@ O desenvolvimento deste projeto utiliza as seguintes ferramentas:
  * BeautifulSoup4
 
 ---
-# Membros do Projeto
+## Membros do Projeto
 - Caroline Dantas
 - Fabiana Iegawa
 - Leonardo Henrique
